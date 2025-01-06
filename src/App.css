@@ -52,9 +52,10 @@ nav ul li a:hover {
   color: #48b4af;
 }
 
-.container {
+.container text-center {
   height: 100vh;
   padding: 120px;
+  margin: 100px;
 }
 
 .container h1 {
