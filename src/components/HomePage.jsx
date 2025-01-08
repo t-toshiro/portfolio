@@ -1,27 +1,27 @@
 import React from 'react'
 import reactImage from "../Images/react.png";
 import jsImage from "../Images/js.png";
-import firebaseImage from "../Images/firebase.jpg";
 import profileImage from "../Images/sibainu.jpg";
+import pythonImage from "../Images/python_18894.png"
 
 
 const HomePage = () => {
   return (
     <div className="container text-center">
-      <h1>Toshiro</h1>
+      <h1>PORTFOLIO</h1>
 
       <img src={profileImage} className="profileImage" />
 
       <p>
-        Toshiro
+        TOSHIRO TSUGARU
       </p>
 
       <section class="page-section" id="services">
         <div className="service">
           <div class="text-center">
-            <h2 class="section-heading text-uppercase">PORTFOLIO</h2>
+            <h2 class="section-heading text-uppercase"></h2>
             <h3 class="section-subheading text-muted mb-5">
-              私が作った作品一覧です
+              
             </h3>
           </div>
           <div class="row text-center">
@@ -80,7 +80,7 @@ const HomePage = () => {
               <p>HTML/CSSがつかえます</p>
             </div>
             <div class="col-md-4 services">
-              <img src={firebaseImage} />
+              <img src={pythonImage} />
               <h4>Firebase</h4>
               <p>Firebaseがつかえます</p>
             </div>
