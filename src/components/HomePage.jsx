@@ -8,12 +8,12 @@ import pythonImage from "../Images/python_18894.png"
 const HomePage = () => {
   return (
     <div className="container text-center">
-      <h1>PORTFOLIO</h1>
+      <h1>TOSHIRO TSUGARU</h1>
 
       <img src={profileImage} className="profileImage" />
 
       <p>
-        TOSHIRO TSUGARU
+        津軽寿史郎です。現在、私は筑波大学の一年生で大学での勉強と両立しながらプログラミングをしています。プログラミングは2024年の夏から始めて、Python,HTML/CSS,Reactなどをこれまで学習してきました。
       </p>
 
       <section class="page-section" id="services">
@@ -81,13 +81,10 @@ const HomePage = () => {
             </div>
             <div class="col-md-4 services">
               <img src={pythonImage} />
-              <h4>Firebase</h4>
-              <p>Firebaseがつかえます</p>
+              <h4>Python</h4>
+              <p>Pythonがつかえます</p>
             </div>
           </div>
-          <button type="button" class="btn btn-primary">
-            スキル一覧
-          </button>
         </div>
       </section>
     </div>
